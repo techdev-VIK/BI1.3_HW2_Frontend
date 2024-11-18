@@ -97,7 +97,7 @@ const AddHotelForm = () => {
 
                 <label>Rating: </label>
                 <br />
-                <input type="number" name="rating" value={formData.rating} onChange={handleChange} />
+                <input type="number" name="rating" value={formData.rating} onChange={handleChange} placeholder="1 to 5"/>
 
                 <br /> <br />
 
